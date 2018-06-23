@@ -1,3 +1,3 @@
-import vueCanvasNest from './vueCanvasNest'
+import vueCanvasNest from './vueCanvasNest.vue'
 
 export default vueCanvasNest

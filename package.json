@@ -1,10 +1,10 @@
 {
   "name": "vue-canvas-nest",
   "description": "A Vue.js component for canvas-nest",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "ZYSzys <17367077526@163.com>",
   "license": "MIT",
-  "private": true,
+  "main": "dist/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -30,5 +30,20 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "main": "webpack.config.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZYSzys/vue-canevas-nest.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "bugs": {
+    "url": "https://github.com/ZYSzys/vue-canevas-nest/issues"
+  },
+  "homepage": "https://github.com/ZYSzys/vue-canevas-nest#readme"
 }
