@@ -1,5 +1,10 @@
 # vue-canvas-nest
 
+[![NPM version](https://img.shields.io/npm/v/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
+[![Travis CI](https://travis-ci.org/ZYSzys/vue-canvas-nest.svg?branch=master)](https://travis-ci.org/ZYSzys/vue-canvas-nest)
+[![NPM downloads](http://img.shields.io/npm/dm/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
+[![license](https://img.shields.io/github/license/ZYSzys/vue-canvas-nest.svg)](https://github.com/ZYSzys/vue-canvas-nest/blob/master/LICENSE)
+
 > A Vue.js component for canvas-nest
 
 ## Install
