@@ -11,7 +11,7 @@
 
 ``` bash
 # install dependencies
-npm install
+npm i vue-canvas-nest
 
 # or use yarn
 yarn add vue-canvas-nest
