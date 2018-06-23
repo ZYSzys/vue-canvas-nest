@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-canvas-nest.min.js'
+    filename: 'vue-canvas-nest.min.js',
+    library: 'vueCanvasNest',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [

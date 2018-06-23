@@ -4,7 +4,10 @@
   "version": "0.0.3",
   "author": "ZYSzys <17367077526@163.com>",
   "license": "MIT",
-  "main": "webpack.config.js",
+  "main": "dist/vue-canvas-nest.min.js",
+  "directories": {
+    "dist": "dist"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
