@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-import vueCanvasNest from './components/vueCanvasNest'
+import vueCanvasNest from '../'
 export default {
   name: 'app',
   components: { vueCanvasNest },
@@ -30,7 +30,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       config: {
         color: '0,0,255',
-        count: 188,
+        count: 200,
       }
     }
   }
