@@ -78,4 +78,6 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     })
   ])
+} else {
+  module.exports.entry = './example/main.js'
 }
