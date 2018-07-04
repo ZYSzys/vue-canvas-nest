@@ -30,7 +30,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       config: {
         color: '0,0,255',
-        count: 200,
+        count: 150,
       }
     }
   }
