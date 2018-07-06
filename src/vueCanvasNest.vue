@@ -11,9 +11,9 @@ export default {
       type: Object,
       default () {
         return {
-          color: '0,0,0',
+          color: '255,0,0',
           count: 99,
-          opacity: 0.5,
+          opacity: 0.7,
           zIndex: -1
         }
       }

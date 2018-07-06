@@ -1,23 +1,27 @@
 <template>
   <div id="app">
+    <div id="cn-router">
+      <router-link to="/red">Red</router-link>
+      <router-link to="/green">Green</router-link>
+      <router-link to="/blue">Blue</router-link>
+      <router-view></router-view>
+    </div>
     <img src="./assets/logo.png">
-    <vue-canvas-nest :config="config"/>
-     <h1>{{ msg }}</h1>
-      <h2>Essential Links</h2>
-      <ul>
-        <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-        <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-        <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-        <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      </ul>
-      <h2>Ecosystem</h2>
-      <ul>
-        <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-        <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-        <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-        <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-      </ul>
-    
+    <h1>{{ msg }}</h1>
+    <h2>Essential Links</h2>
+    <ul>
+      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+    </ul>
+    <h2>Ecosystem</h2>
+    <ul>
+      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
+      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
+      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
+      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
+    </ul>
   </div>
 </template>
 <script>
@@ -44,7 +48,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 3em;
+}
+
+#cn-router {
+  font-size: 2em;
 }
 
 h1,
