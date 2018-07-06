@@ -1,7 +1,7 @@
 {
   "name": "vue-canvas-nest",
   "description": "A Vue.js component for canvas-nest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ZYSzys <17367077526@163.com>",
   "license": "MIT",
   "main": "dist/vue-canvas-nest.min.js",
