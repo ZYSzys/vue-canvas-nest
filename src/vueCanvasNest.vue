@@ -17,14 +17,14 @@ export default {
       }
     }
   },
-  data() {
-    return {
-      cn: ''
-    }
-  },
   mounted() {
-    const el = document.querySelector('.vue-canvas-nest-element')
-    this.cn = new CanvasNest(el, this.config)
+    this.createCanvasNest()
+  },
+  methods: {
+    createCanvasNest() {
+      const el = document.querySelector('.vue-canvas-nest-element')
+      this.cn = new CanvasNest(el, this.config)
+    }
   }
 }
 
