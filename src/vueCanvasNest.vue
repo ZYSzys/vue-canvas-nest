@@ -25,9 +25,6 @@ export default {
   mounted() {
     const el = document.querySelector('.vue-canvas-nest-element')
     this.cn = new CanvasNest(el, this.config)
-  },
-  beforeDestroy() {
-    this.cn.destroy()
   }
 }
 
