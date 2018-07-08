@@ -10,18 +10,12 @@ module.exports = {
     }
   },
   output: {
-    path: path.resolve(__dirname, '../dist/dev'),
-    publicPath: '/',
+    path: path.resolve(__dirname, '../example/dist'),
     filename: 'vue-canvas-nest.js'
-  },
-  devServer: {
-    contentBase: path.resolve(__dirname, '../dist/dev'),
-    compress: false,
-    port: 8080
   },
   plugins: [
     new HTMLWebpackPlugin({
-      filename: path.resolve(__dirname, '../dist/dev/index.html'),
+      filename: path.resolve(__dirname, '../example/dist/index.html'),
       template: 'example/index.html',
       inject: true
     })
