@@ -3,10 +3,16 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './example/main.js',
+  resolve: {
+    extensions: ['*', '.js', '.vue'],
+    alias: {
+      main: path.resolve(__dirname, '../src')
+    }
+  },
   output: {
     path: path.resolve(__dirname, '../dist/dev'),
     publicPath: '/',
-    filename: 'devtest.js'
+    filename: 'vue-canvas-nest.js'
   },
   devServer: {
     contentBase: path.resolve(__dirname, '../dist/dev'),
