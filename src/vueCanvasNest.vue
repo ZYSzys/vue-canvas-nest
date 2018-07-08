@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-canvas-nest-element">
+  <div class="vue-canvas-nest-element" ref="vue_canvas_nest_element">
   </div>
 </template>
 <script>
@@ -24,9 +24,12 @@ export default {
   },
   methods: {
     createCanvasNest() {
-      const el = document.querySelector('.vue-canvas-nest-element')
+      const el = this.$refs.vue_canvas_nest_element
       this.cn = new CanvasNest(el, this.config)
     }
+  },
+  beforeDestroy () {
+    this.$refs.vue_canvas_nest_element.innerHTML = ''
   }
 }
 
