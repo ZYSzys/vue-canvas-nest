@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../example/dist'),
-    filename: 'vue-canvas-nest.js'
+    filename: 'vue-canvas-nest-example.js'
   },
   plugins: [
     new HTMLWebpackPlugin({
