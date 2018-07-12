@@ -1,6 +1,6 @@
 # vue-canvas-nest
 
-[![Vue](https://img.shields.io/badge/Vue-2.5-brightgreen.svg)](https://vuejs.org/)
+[![Vue](https://img.shields.io/badge/Vue-^2.5-brightgreen.svg)](https://vuejs.org/)
 [![Travis CI](https://travis-ci.org/ZYSzys/vue-canvas-nest.svg?branch=master)](https://travis-ci.org/ZYSzys/vue-canvas-nest)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![NPM version](https://img.shields.io/npm/v/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
