@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="cn-router">
-      <router-link to="/red">Red</router-link>
-      <router-link to="/green">Green</router-link>
-      <router-link to="/blue">Blue</router-link>
+      <router-link to="/red"><span style="color: red"> Red </span></router-link>
+      <router-link to="/green"><span> Green </span></router-link>
+      <router-link to="/blue"><span style="color: blue"> Blue </span></router-link>
       <router-view></router-view>
     </div>
     <img src="./assets/logo.png">
