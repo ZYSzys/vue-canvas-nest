@@ -5,6 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![NPM version](https://img.shields.io/npm/v/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
 [![NPM downloads](http://img.shields.io/npm/dm/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
+[![NPM downloads](http://img.shields.io/npm/dt/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
 [![license](https://img.shields.io/github/license/ZYSzys/vue-canvas-nest.svg)](https://github.com/ZYSzys/vue-canvas-nest/blob/master/LICENSE)
 
 
