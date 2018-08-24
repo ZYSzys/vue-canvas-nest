@@ -1,6 +1,6 @@
 # vue-canvas-nest
 
-[![Vue](https://img.shields.io/badge/Vue-^2.5-brightgreen.svg)](https://vuejs.org/)
+[![Vue](https://img.shields.io/badge/Vue-2.5-brightgreen.svg)](https://vuejs.org/)
 [![Travis CI](https://travis-ci.org/ZYSzys/vue-canvas-nest.svg?branch=master)](https://travis-ci.org/ZYSzys/vue-canvas-nest)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![NPM version](https://img.shields.io/npm/v/vue-canvas-nest.svg?style=flat)](https://npmjs.org/package/vue-canvas-nest)
@@ -36,14 +36,14 @@ export default {
 
 ### How to use
 
-#### Simply use:
+#### Simply use
 ```html
 <vue-canvas-nest></vue-canvas-nest>
 ```
 
-#### With config:
+#### With config or el(area render)
 ```html
-<vue-canvas-nest :config="{color:'255,0,0', count: 88}"></vue-canvas-nest>
+<vue-canvas-nest :config="{color:'255,0,0', count: 88}" :el="'#area'"></vue-canvas-nest>
 ```
 
 ## Config
@@ -52,6 +52,8 @@ export default {
  - **`opacity`**: the opacity of line (0~1), default: `0.7`.
  - **`count`**: the number of lines, default: `99`.
  - **`zIndex`**: the index of z space, default: `-1`.
+
+ **Note: Render the whole page if no el passed by default.**
 
 #### Example:
 ```js
