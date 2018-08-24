@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <vue-canvas-nest :config="config" :el="'#area'"></vue-canvas-nest>
     <div id="cn-router">
       <router-link to="/red"><span style="color: red"> Red </span></router-link>
       <router-link to="/green"><span> Green </span></router-link>
@@ -22,6 +23,8 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <div id="area" style="width: 400px;height: 300px;position: absolute;right: 0;bottom: 0;border: dashed 1px;">
+    </div>
   </div>
 </template>
 <script>
@@ -33,9 +36,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       config: {
-        color: '0,0,255',
-        count: 150,
-      }
+        color: '0,0,0',
+        count: 70,
+      },
+      el: '#area'
     }
   }
 }

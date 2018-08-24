@@ -11,7 +11,7 @@ export default {
     return {
       config: {
         color: '0,0,255',
-        count: 100,
+        count: 150,
         opacity: 0.9,
         zIndex: 0,
       }

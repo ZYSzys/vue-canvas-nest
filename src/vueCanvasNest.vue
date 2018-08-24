@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-canvas-nest-element" ref="vue_canvas_nest_element">
+  <div class="vue-canvas-nest-element">
   </div>
 </template>
 <script>
@@ -17,6 +17,10 @@ export default {
           zIndex: -1
         }
       }
+    },
+    el: {
+      type: String,
+      default: '.vue-canvas-nest-element'
     }
   },
   mounted() {
@@ -24,12 +28,13 @@ export default {
   },
   methods: {
     createCanvasNest() {
-      const el = this.$refs.vue_canvas_nest_element
-      this.cn = new CanvasNest(el, this.config)
+      const elm = document.querySelector(this.el)
+      this.cn = new CanvasNest(elm, this.config)
     }
   },
   beforeDestroy () {
-    this.$refs.vue_canvas_nest_element.innerHTML = ''
+    const elm = document.querySelector(this.el)
+    this.cn.destroy()
   }
 }
 
