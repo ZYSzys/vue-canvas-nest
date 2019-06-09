@@ -18,7 +18,7 @@
     "example": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=./build/webpack.dev.config.js"
   },
   "dependencies": {
-    "canvas-nest.js": "2.0.3"
+    "canvas-nest.js": "2.0.4"
   },
   "peerDependencies": {
     "vue": "^2.5.x"
