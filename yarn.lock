@@ -1085,10 +1085,10 @@ caniuse-lite@^1.0.30000844:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000974.tgz#b7afe14ee004e97ce6dc73e3f878290a12928ad8"
   integrity sha512-xc3rkNS/Zc3CmpMKuczWEdY2sZgx09BkAxfvkxlAEBTqcMHeL8QnPqhKse+5sRTi3nrw2pJwToD2WvKn1Uhvww==
 
-canvas-nest.js@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/canvas-nest.js/-/canvas-nest.js-2.0.3.tgz#1ee967d977a7a301b8e3eefd16702b812b8ed7f3"
-  integrity sha512-zL+AN9alP5fl/Ek2gZMpWS4Hoz5jMf1NonYPvdsU5SV++m8/b45EUnTje6GUs1998q6wGISYYRHiWho1JXGM6w==
+canvas-nest.js@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/canvas-nest.js/-/canvas-nest.js-2.0.4.tgz#e010075d5dbbf3cbfc1ef18942c266b1af873469"
+  integrity sha512-Wgc+39fQBIP8fm9+Rq+Zt6+QLHZRsIKpaOQPL5KcWPlXTAalCKY4KCuklY7qzzZqBRF/t2APIrk+PuRw6ZlOog==
   dependencies:
     size-sensor "^0.2.0"
 
