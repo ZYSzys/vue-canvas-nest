@@ -39,7 +39,7 @@
     "html-webpack-plugin": "3.2.0",
     "vue-loader": "13.7.2",
     "vue-router": "3.0.1",
-    "vue-template-compiler": "2.5.17",
+    "vue-template-compiler": "2.7.16",
     "webpack": "3.12.0",
     "webpack-dev-server": "2.11.5"
   },
