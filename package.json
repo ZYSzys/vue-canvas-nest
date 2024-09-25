@@ -40,7 +40,7 @@
     "vue-loader": "13.7.2",
     "vue-router": "3.0.1",
     "vue-template-compiler": "2.5.17",
-    "webpack": "3.12.0",
+    "webpack": "5.95.0",
     "webpack-dev-server": "2.11.5"
   },
   "repository": {
